@@ -1,0 +1,36 @@
+html {
+    font-size: 15px;
+}
+.header {
+    height: 350px;
+}
+.header-bg-index {
+    background-image: url('assets/PROMETHEUS.jpg');
+}
+header ul {
+    list-style-type: none;
+}
+li {
+    color: #FFBD59;
+    list-style-type: none;
+}
+
+body {
+    font-family: "Roboto";
+    background-color: black;
+    color: #FFFFFF;
+}
+.imagenes-servicios-y-componentes {
+    background-color:#FFBD59;
+}
+img {
+    width: 20%;
+}
+.img-logo{
+    height: 200px;
+    width: auto;
+}
+a {
+    text-decoration: none;
+    color:#FFBD59 ;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Prometheus PC</title>
+  </head>
+  <br />
+  <body>
+    <header class="encabezado-bg-index">
+      <!-- LOGO -->
+      <nav>
+        <div class="header-flex">
+        <img 
+        src="assets/PROMETHEUS.jpg" class="img-logo"  alt="image-logo"/>
+        <ul>
+          <li>
+            <a href="index.html">Inicio</a>
+            <a href="pages/servicios.html">Servicios</a>
+            <a href="pages/componentes.html">Componentes</a>
+            <a href="#contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+        </nav>
+        </nav>
+      </nav>
+    </header>
+    <main>
+      <h1>Prometheus PC</h1>
+      <iframe
+      src="assets/Prometheus-pc.mp4"
+      ></iframe>
+      <br />
+      <section>
+        <article>
+          <img
+            class="imagenes-servicios-y-componentes"
+            src="assets/servicios.png"
+            alt="icono de la carpeta servicios"
+          />
+          <h2>Servicios</h2>
+          <ul>
+            <li>Mantenimiento Basico</li>
+            <li>Mantenimiento Premium</li>
+            <li>Mantenimiento de Consolas</li>
+            <li>Armado de PC</li>
+            <li>Instalacion de sistema operativo</li>
+            <li>Soporte remoto</li>
+          </ul>
+        </article>
+        <article>
+          <img
+            class="imagenes-servicios-y-componentes"
+            src="assets/case.png"
+            alt="icono de la carpeta gabinete"
+          />
+          <h3>Componentes</h3>
+          <ul>
+            <li>Accesorios de PC</li>
+            <li>Hardware</li>
+            <li>Computadoras</li>
+          </ul>
+        </article>
+      </section>
+      <section id="contacto.html">
+        <h2>Contacto</h2>
+        <form action="form.php" method="post">
+          <label for="nombre">Nombre</label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="Nahuel Sarmiento"
+          />
+          <label for="email">Email</label>
+          <input
+            type="text"
+            name="email"
+            id="nombre"
+            placeholder="ejemplo123@gmail.com"
+          />
+          <label for="">Celular</label>
+          <input type="text" name="" id="" placeholder="1164769743" />
+          <label for="motivo-contacto">Motivo de contacto:</label>
+          <select id="motivo-contacto" name="motivo-contacto">
+            <option value="soporte">Soporte técnico</option>
+            <option value="ventas">Información de ventas</option>
+            <option value="comentarios">Comentarios y sugerencias</option>
+            <option value="otros">Otro</option>
+          </select>
+          <p>Mensaje</p>
+          <textarea name="" id=""> </textarea>
+          <p>No soy un robot</p>
+          <input type="checkbox" name="captcha" id="captcha" />
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+    </main>
+    <br />
+    <br />
+    <footer>
+      <a href="https://www.instagram.com/prometheus_pc/">Instagram</a>
+      <a href="https://linktr.ee/prometheus_pc">Linktree</a>
+      <a href="https://chatwith.io/s/540111564769743">Whatsapp</a>
+    </footer>
+  </body>
+</html>
