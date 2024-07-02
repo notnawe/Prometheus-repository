@@ -34,3 +34,9 @@ a {
     text-decoration: none;
     color:#FFBD59 ;
 }
+.encabezado-bg-servicios {
+    background-color: #000000;
+} 
+.titulos-article {
+    color: #FFBD59;
+}
