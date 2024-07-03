@@ -1,42 +1,42 @@
 html {
     font-size: 15px;
 }
-.header {
-    height: 350px;
-}
-.header-bg-index {
-    background-image: url('assets/PROMETHEUS.jpg');
-}
-header ul {
-    list-style-type: none;
-}
-li {
-    color: #FFBD59;
-    list-style-type: none;
-}
 
 body {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     background-color: black;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-.imagenes-servicios-y-componentes {
-    background-color:#FFBD59;
+
+.encabezado-bg-index {
+    background-image: url('assets/PROMETHEUS.jpg');
+    background-size: cover;
+    background-position: center;
 }
-img {
-    width: 20%;
-}
-.img-logo{
-    height: 200px;
+
+.img-logo {
+    height: 60px;
     width: auto;
 }
-a {
-    text-decoration: none;
-    color:#FFBD59 ;
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffbd59;
 }
-.encabezado-bg-servicios {
-    background-color: #000000;
-} 
+
+.imagenes-servicios-y-componentes {
+    background-color: #ffbd59;
+    width: 100%;
+}
+
 .titulos-article {
-    color: #FFBD59;
+    color: #ffbd59;
+}
+
+footer a {
+    color: #ffbd59;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }

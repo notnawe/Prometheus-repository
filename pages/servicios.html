@@ -9,77 +9,81 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../css/style.css">
     <title>Prometheus PC</title>
   </head>
   <body>
-    <header class="encabezado-bg-servicios">
-      <!-- LOGO -->
-      <nav>
-        <div class="header-flex-servicios">
-        <ul>
-          <li>
-            <a href="../index.html">Inicio</a>
-            <a href="servicios.html">Servicios</a>
-            <a href="../pages/componentes.html">Componentes</a>
-            <a href="../index.html#contacto.html">Contacto</a>
-          </li>
-        </ul>
-      </div>
+    <header class="encabezado-bg-index">
+            <!-- LOGO -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">
+          <img src="../assets/PROMETHEUS.jpg" class="img-logo" alt="image-logo"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="componentes.html">Componentes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
       </nav>
     </header>
-    <main>
-      <h1>Servicios</h1>
-      <p>
+    <main class="container mt-5">
+      <h1 class="text-center">Servicios</h1>
+      <p class="text-center">
         Realizo testeo inicial a todos los equipos para descartar cualquier tipo
         de falla de hardware, dejando todo registrado en nuestro sistema.
       </p>
-      <section class="titulos-article">
-        <article>
-          <img
-            src="../assets/mantenimiento-basico.jpg"
-            alt="imagen de mantenimiento basico"
-          />
-          <p>Mantenimiento Basico (PC & Notebook)</p>
+      <section class="row titulos-article">
+        <article class="col-md-4 mb-4">
+          <img class="img-fluid" src="../assets/mantenimiento-basico.jpg" alt="imagen de mantenimiento basico" />
+          <p class="text-center">Mantenimiento Basico (PC & Notebook)</p>
         </article>
-        <article>
-          <img
-            src="../assets/mantenimiento-premium.jpg"
-            alt="imagen de mantenimiento premiun"
-          />
-          <p>Mantenimiento Premium (PC & Notebook)</p>
+        <article class="col-md-4 mb-4">
+          <img class="img-fluid" src="../assets/mantenimiento-premium.jpg" alt="imagen de mantenimiento premiun" />
+          <p class="text-center">Mantenimiento Premium (PC & Notebook)</p>
         </article>
-        <article>
-          <img
-            src="../assets/mantenimiento-de-consolas.webp"
-            alt="consola de videojuegos"
-          />
-          <p>Mantenimiento de Consolas</p>
+        <article class="col-md-4 mb-4">
+          <img class="img-fluid" src="../assets/mantenimiento-de-consolas.webp" alt="consola de videojuegos" />
+          <p class="text-center">Mantenimiento de Consolas</p>
         </article>
-        <article>
-          <img src="../assets/armado-de-pc.jpg" alt="armado de pc" />
-          <p>Armado de PC</p>
+        <article class="col-md-4 mb-4">
+          <img class="img-fluid" src="../assets/armado-de-pc.jpg" alt="armado de pc" />
+          <p class="text-center">Armado de PC</p>
         </article>
-        <article>
-          <img
-            src="../assets/instalacion-de-sistema-operativo.jpg"
-            alt="instalando SO"
-          />
-          <p>Instalacion de sistema operativo</p>
+        <article class="col-md-4 mb-4">
+          <img class="img-fluid" src="../assets/instalacion-de-sistema-operativo.jpg" alt="instalando SO" />
+          <p class="text-center">Instalacion de sistema operativo</p>
         </article>
-        <article>
-          <img
-            src="../assets/acceso-remoto.png"
-            alt="ayuda remota desde otra pc"
-          />
-          <p>Soporte remoto</p>
+        <article class="col-md-4 mb-4">
+          <img class="img-fluid" src="../assets/acceso-remoto.png" alt="ayuda remota desde otra pc" />
+          <p class="text-center">Soporte remoto</p>
         </article>
       </section>
     </main>
-    <footer>
-      <a href="https://www.instagram.com/prometheus_pc/">Instagram</a>
-      <a href="https://linktr.ee/prometheus_pc">Linktree</a>
-      <a href="https://chatwith.io/s/540111564769743">Whatsapp</a>
+    <footer class="text-center mt-5">
+      <a href="https://www.instagram.com/prometheus_pc/" class="text-warning">Instagram</a> |
+      <a href="https://linktr.ee/prometheus_pc" class="text-warning">Linktree</a> |
+      <a href="https://chatwith.io/s/540111564769743" class="text-warning">Whatsapp</a>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
