@@ -1,42 +1,46 @@
-html {
-    font-size: 15px;
-}
+    html {
+      font-size: 15px;
+    }
 
-body {
-    font-family: "Roboto", sans-serif;
-    background-color: black;
-    color: #ffffff;
-}
+    body {
+      font-family: "Roboto", sans-serif;
+      background-color: black;
+      color: #ffffff;
+    }
 
-.encabezado-bg-index {
-    background-image: url('assets/PROMETHEUS.jpg');
-    background-size: cover;
-    background-position: center;
-}
+    .encabezado-bg-index {
+      background-image: url('assets/PROMETHEUS.jpg');
+      background-size: cover;
+      background-position: center;
+    }
 
-.img-logo {
-    height: 60px;
-    width: auto;
-}
+    .img-logo {
+      height: 60px;
+      width: auto;
+    }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: #ffbd59;
-}
+    .navbar-dark .navbar-nav .nav-link {
+      color: #ffbd59;
+    }
 
-.imagenes-servicios-y-componentes {
-    background-color: #ffbd59;
-    width: 100%;
-}
+    .imagenes-servicios-y-componentes {
+      background-color: #ffbd59;
+      width: 100%;
+    }
 
-.titulos-article {
-    color: #ffbd59;
-}
+    .titulos-article {
+      color: #ffbd59;
+    }
 
-footer a {
-    color: #ffbd59;
-    text-decoration: none;
-}
+    footer a {
+      color: #ffbd59;
+      text-decoration: none;
+    }
 
-footer a:hover {
-    text-decoration: underline;
-}
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .col-md-4 p.text-center {
+      color: #ffbd59;
+    }

@@ -1,115 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Prometheus PC</title>
-  </head>
-  <body>
-    <header class="encabezado-bg-index">
-      <!-- LOGO -->
-      <nav class="navbar navbar-expand-lg navbar-dark ">
-        <a class="navbar-brand" href="index.html">
-          <img src="assets/prometheus.jpg" class="img-logo" alt="image-logo"/>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/servicios.html">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/componentes.html">Componentes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contacto">Contacto</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main class="container mt-5">
-      <h1 class="text-center">Prometheus PC</h1>
-      <div class="embed-responsive embed-responsive-16by9 my-4">
-        <video class="embed-responsive-item" src="assets/prometheus-pc.mp4" autoplay loop muted playsinline></video>
-
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Prometheus PC</title>
+</head>
+<body>
+  <header class="encabezado-bg-index">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/prometheus.jpg" class="img-logo" alt="image-logo"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/componentes.html">Componentes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
       </div>
-      <section class="row">
-        <article class="col-md-6 mb-4">
-          <img class="imagenes-servicios-y-componentes img-fluid" src="assets/servicios.png" alt="icono de la carpeta servicios" />
-          <h2 class="titulos-article">Servicios</h2>
-          <ul class="list-unstyled">
-            <li>Mantenimiento Básico</li>
-            <li>Mantenimiento Premium</li>
-            <li>Mantenimiento de Consolas</li>
-            <li>Armado de PC</li>
-            <li>Instalación de sistema operativo</li>
-            <li>Soporte remoto</li>
-          </ul>
-        </article>
-        <article class="col-md-6 mb-4">
-          <img class="imagenes-servicios-y-componentes img-fluid" src="assets/case.png" alt="icono de la carpeta gabinete" />
-          <h3 class="titulos-article">Componentes</h3>
-          <ul class="list-unstyled">
-            <li>Accesorios de PC</li>
-            <li>Hardware</li>
-            <li>Computadoras</li>
-          </ul>
-        </article>
-      </section>
-      <section id="contacto" class="mt-5">
-        <h2>Contacto</h2>
-        <form action="form.php" method="post">
-          <div class="form-group">
-            <label for="nombre">Nombre</label>
-            <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nahuel Sarmiento" />
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="text" class="form-control" name="email" id="email" placeholder="ejemplo123@gmail.com" />
-          </div>
-          <div class="form-group">
-            <label for="celular">Celular</label>
-            <input type="text" class="form-control" name="celular" id="celular" placeholder="1164769743" />
-          </div>
-          <div class="form-group">
-            <label for="motivo-contacto">Motivo de contacto:</label>
-            <select class="form-control" id="motivo-contacto" name="motivo-contacto">
-              <option value="soporte">Soporte técnico</option>
-              <option value="ventas">Información de ventas</option>
-              <option value="comentarios">Comentarios y sugerencias</option>
-              <option value="otros">Otro</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="mensaje">Mensaje</label>
-            <textarea class="form-control" name="mensaje" id="mensaje" rows="3"></textarea>
-          </div>
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" name="captcha" id="captcha" />
-            <label class="form-check-label" for="captcha">No soy un robot</label>
-          </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-      </section>
-    </main>
-    <footer class="text-center mt-5">
-      <a href="https://www.instagram.com/prometheus_pc/" class="text-warning">Instagram</a> |
-      <a href="https://linktr.ee/prometheus_pc" class="text-warning">Linktree</a> |
-      <a href="https://chatwith.io/s/540111564769743" class="text-warning">Whatsapp</a>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  </body>
+    </nav>
+  </header>
+  <main class="container mt-5">
+    <h1 class="text-center">Prometheus PC</h1>
+    <div class="embed-responsive embed-responsive-16by9 my-4">
+      <video class="embed-responsive-item" src="assets/prometheus-pc.mp4" autoplay loop muted playsinline></video>
+    </div>
+    <section class="row">
+      <article class="col-md-6 mb-4">
+        <img class="imagenes-servicios-y-componentes img-fluid" src="assets/servicios.png" alt="icono de la carpeta servicios" />
+        <h2 class="titulos-article">Servicios</h2>
+        <ul class="list-unstyled">
+          <li>Mantenimiento Básico</li>
+          <li>Mantenimiento Premium</li>
+          <li>Mantenimiento de Consolas</li>
+          <li>Armado de PC</li>
+          <li>Instalación de sistema operativo</li>
+          <li>Soporte remoto</li>
+        </ul>
+      </article>
+      <article class="col-md-6 mb-4">
+        <img class="imagenes-servicios-y-componentes img-fluid" src="assets/case.png" alt="icono de la carpeta gabinete" />
+        <h3 class="titulos-article">Componentes</h3>
+        <ul class="list-unstyled">
+          <li>Accesorios de PC</li>
+          <li>Hardware</li>
+          <li>Computadoras</li>
+        </ul>
+      </article>
+    </section>
+    <section id="contacto" class="mt-5">
+      <h2>Contacto</h2>
+      <form action="form.php" method="post">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nahuel Sarmiento" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" class="form-control" name="email" id="email" placeholder="ejemplo123@gmail.com" />
+        </div>
+        <div class="form-group">
+          <label for="celular">Celular</label>
+          <input type="text" class="form-control" name="celular" id="celular" placeholder="1164769743" />
+        </div>
+        <div class="form-group">
+          <label for="motivo-contacto">Motivo de contacto:</label>
+          <select class="form-control" id="motivo-contacto" name="motivo-contacto">
+            <option value="soporte">Soporte técnico</option>
+            <option value="ventas">Información de ventas</option>
+            <option value="comentarios">Comentarios y sugerencias</option>
+            <option value="otros">Otro</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea class="form-control" name="mensaje" id="mensaje" rows="3"></textarea>
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" name="captcha" id="captcha" />
+          <label class="form-check-label" for="captcha">No soy un robot</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer class="text-center mt-5">
+    <a href="https://www.instagram.com/prometheus_pc/" class="text-warning">Instagram</a> |
+    <a href="https://linktr.ee/prometheus_pc" class="text-warning">Linktree</a> |
+    <a href="https://chatwith.io/s/540111564769743" class="text-warning">Whatsapp</a>
+  </footer>
+</body>
 </html>
