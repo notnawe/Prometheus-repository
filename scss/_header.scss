@@ -1,0 +1,16 @@
+header {
+    @include sin-parametros;
+    background-color: aqua;
+    nav {
+        color: black;
+    }
+}
+.logo {
+    @include tamanio (50%,40px)
+}
+.card{
+    @include flex (row,center,end);
+}
+footer{
+    @include flex(column,end,end)
+}

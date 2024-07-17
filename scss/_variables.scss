@@ -1,0 +1,17 @@
+@mixin sin-parametros {
+display: flex;
+flex-direction: row-reverse;
+justify-content: end;
+align-items: center;
+}
+
+@mixin tamanio ($ancho,$alto){
+    width: $ancho;
+    height: $alto;
+}
+@mixin flex($direccion,$content,$align){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $content;
+    align-items: $align;
+}
