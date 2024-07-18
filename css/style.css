@@ -5,6 +5,9 @@ header {
   align-items: center;
   background-color: black;
 }
+.header:hover {
+  color:blue;
+}
 header nav {
   color: black;
 }
@@ -21,7 +24,7 @@ header nav {
   align-items: end;
 }
 
-footer {
+.footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
