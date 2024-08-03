@@ -1,0 +1,12 @@
+header {
+  @include sin-parametros;
+  background-color: black;
+
+  nav {
+    color: black;
+  }
+}
+
+.logo {
+  @include tamanio(50%, 40px);
+}

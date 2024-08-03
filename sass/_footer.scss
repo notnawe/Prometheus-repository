@@ -1,0 +1,12 @@
+footer {
+    @include flex(column, center, center);
+  
+    a {
+      color: $primary-color;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
